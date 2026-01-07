@@ -37,7 +37,7 @@ jobs:
         run: npm ci # Uses package-lock.json for a clean install
 
       - name: Build
-        run: npm run build
+        run: npm run docs:build # Adjust if your build script is named differently
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
