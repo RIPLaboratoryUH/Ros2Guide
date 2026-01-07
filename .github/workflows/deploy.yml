@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './dist' # Verify this matches your vite output folder
+          path: 'docs/.vitepress/dist' # Verify this matches your vite output folder
 
   # Deployment job
   deploy:
