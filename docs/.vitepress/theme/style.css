@@ -1,0 +1,11 @@
+/**
+ * Custom CSS for ROS2 Guide
+ */
+
+:root {
+  --vp-c-brand-1: #3eaf7c;
+  --vp-c-brand-2: #3eaf7c;
+  --vp-c-brand-3: #3eaf7c;
+}
+
+/* Add any other custom styles here */
