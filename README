@@ -1,0 +1,5 @@
+
+This guide is written in **Markdown**. To add a new page:
+
+1. Create a new `.md` file in the `docs/guide/` directory.
+2. Add the link to `docs/.vitepress/config.mts` under the `sidebar` section.

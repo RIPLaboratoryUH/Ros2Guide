@@ -6,28 +6,13 @@ When I first started, I had no idea where to look for more information on certai
 
 Alternatively, if you are a mechanical engineer, and just trying to understand the basics of ROS2, this document will still be helpful, but all of the links may not pertain to you.  Check out the Quick Start page for the bare minimum information.
 
-## What is ROS2?
+## How to Use This Guide
 
-ROS2 (Robot Operating System 2) is an open-source set of software libraries and tools that help you build robot applications.
+Take your time absorbing everything. There will be a lot of information here, so feel free to take breaks, come back to difficult topics, or check out the [Glossary] page to find definitions of words.
 
-## How to use this guide
+Due to the open-source aspect of ROS2, most of the important information about developing and using it already exists and is free to access! 
 
-This guide is written in **Markdown**. To add a new page:
+The information present in this guide will generally be presented in the form of links to other sites. Links presented *like so* are vital curriculum! There may be other links that are extraneous or are good to know but not essential. These will be presented **like so**.
 
-1. Create a new `.md` file in the `docs/guide/` directory.
-2. Add the link to `docs/.vitepress/config.mts` under the `sidebar` section.
 
-### Code Example
 
-```bash
-# Example command
-ros2 run demo_nodes_cpp talker
-```
-
-::: tip
-This is a tip box. You can use it to highlight important information.
-:::
-
-::: warning
-This is a warning box. Use it for critical alerts.
-:::
