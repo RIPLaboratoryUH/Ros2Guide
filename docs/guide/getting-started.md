@@ -15,4 +15,13 @@ Due to the open-source aspect of ROS2, most of the important information about d
 The information present in this guide will generally be presented in the form of links to other sites. Links presented *like so* are vital curriculum! There may be other links that are extraneous or are good to know but not essential. These will be presented **like so**.
 
 
+## Robot... Operating System?
+To start, lets answer the question of what ROS2 **is**. ROS stands for Robot Operating System, which can be confusing to people with backgrounds in computing, let me explain. In the computing world, an operating system refers specifically to the low-level software controlling your computer. For example, it interprets your keyboard presses as specific characters, then tells your word proccessor to draw the corresponding character. This is nice because then we do not need to be very involved with these repetive, menial tasks. Examples of operating systems include Windows, Ubuntu, MacOS, and even Android. Each of these completely define the experience of using your device, and installing different OSes give you totally unique functionality and use. The operating system operates at the lowest layer between the physical CPU and you. 
+Here lies the contention: ROS2 does not operate at the same layer as a traditional OS, and in fact, is used more like a traditional program, such as a browser (albeit, slightly more complicated, but we'll circle back to that). So your machine is "running" Ubuntu, but has ROS2 installed on top of it. ROS2 does not completely control your computer's hardware to interpret keyboard commands, Ubuntu is still in charge of that. The reason why ROS2 is called Robot Operating System is because it is the primary layer between you (i.e the computer running ROS2) and the robot's hardware. This means that ROS2 provides capability to do things like motor control, odometry calculation and sensor readings, in real-time. ROS2 is awesome because it provides many tools that make interproccess communication easy, as well as providing a general framework that many people can use in different situations. Having knowledge of how ROS2 works on one robot will give you a general idea of how most other robots using ROS2 operate.
+
+
+
+## The command line
+
+
 
