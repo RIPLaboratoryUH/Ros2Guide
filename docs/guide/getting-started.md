@@ -39,7 +39,7 @@ The documentation for ROS2 is straightforward, but there is an overwhelming amou
 
 -Once people are comfortable with this, *come up with a demo or test*. Then we can move onto specifics of IIR/other robot setup.
 
-Read here for information about which distrobution of ROS2 to use. We use Jazzy as much as possible currently as it has the longest lifespan, keeping our system consistent.
+Read here for information about which distrobution of ROS2 to use. We use Jazzy currently as it has the longest lifespan.
 https://docs.ros.org/en/jazzy/Releases.html
 
 
