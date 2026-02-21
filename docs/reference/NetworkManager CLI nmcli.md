@@ -136,4 +136,4 @@ tailscale0          d3187d84-3ac0-4fca-a45f-1b4d96762849  tun       tailscale0
 - **DEVICE = wlan0**: Currently connected
 - **DEVICE = --**: Saved but not active
 - **TYPE = wifi**: WiFi connection
-- **TYPE = tun**: VPN/tunnel connection (like Tailscale)o nmcli con
+- **TYPE = tun**: VPN/tunnel connection (like Tailscale)

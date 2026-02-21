@@ -4,7 +4,7 @@ Note: Run each of these commands one at a time. You do not need ROS2 installed t
 
 1. Plug riplab router in
 2. connect laptop to riplab network
-3. turn robot on The PI will automatically connect to the riplab network
+3. turn robot on. The PI will automatically connect to the riplab network
 
 `ssh riplab@192.168.1.22`
 
@@ -16,15 +16,15 @@ Then run these commands to configure the pi (must be done every time robot is re
 $ sudo ip link set can0 down
 $ sudo ip link set can0 type can bitrate 1000000
 $ sudo ip link set can0 up
+$ cd iir-ws
 $ expz
 $ source install/local_setup.bash
-$ cd iir-ws
 $ ./lidar_script
 ```
 
 This will open 3 windows, the 1st is the base control system, the second is a zenoh router, the third is the map node. 
 
-To start the teleop controller, hit CTRL-B and then % to open a new tmux window. In the new window, run this command:
+To start the teleop controller, hit CTRL-B and then % to open a new tmux pane. In the new window, run this command:
 
 ```
 $ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r cmd_vel:=diff_drive_controller/cmd_vel -p stamped:=true

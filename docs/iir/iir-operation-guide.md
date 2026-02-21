@@ -210,7 +210,7 @@ In rviz2, Click File > recent configs > nav2_default_view
 ```
 Other messages indicating scans are failing will appear in the slam_toolbox window. 
 
-**Solution:**  Usually this issue can be fixed by re-rerunning `lidarup` / the lidar networking configuration command. If not, go through the reset procedure.
+**Solution:**  Usually this issue can be fixed by re-running `lidarup` / the lidar networking configuration command. If not, go through the reset procedure.
 
 
 
