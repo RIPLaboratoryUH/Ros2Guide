@@ -22,7 +22,25 @@ Given this, and the name, you may believe ROS2 is a traditional operating system
 
 
 
-## The command line
+## OK Lets Start Learning ROS2!!
+
+The documentation for ROS2 is straightforward, but there is an overwhelming amount of information for a new user. Follow the path laid out below to start.
+
+- Follow this installation guide
+    - https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html
+    - Once this is done, and the tutorials work as directed, run this command `echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc`.
+    - This will auto-source ROS2 whenever you open up a new terminal. For more information on the commandline, terminals on linux and .bashrc files, go [here]
+    - You can also check the output of this command ```printenv | grep -i ROS```. If everything is installed properly, you should see ```ROS_VERSION=2 ROS_PYTHON_VERSION=3 ROS_DISTRO=jazzy```
+- Read this page, but focus in on Nodes, Topics, and Introspection sections.
+    - https://docs.ros.org/en/jazzy/Concepts/Basic.html
+- Once you have a basic understanding of the concepts, move onto the tutorial section, do all the tutorials in the Beginner and Intermediate sections. Take your time moving through these sections, and try and get an understanding of what commands you're running. 
+    - https://docs.ros.org/en/jazzy/Tutorials.html
+
+
+-Once people are comfortable with this, *come up with a demo or test*. Then we can move onto specifics of IIR/other robot setup.
+
+Read here for information about which distrobution of ROS2 to use. We use Jazzy as much as possible currently as it has the longest lifespan, keeping our system consistent.
+https://docs.ros.org/en/jazzy/Releases.html
 
 
 
